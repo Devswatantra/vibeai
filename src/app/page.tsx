@@ -1,12 +1,7 @@
-import { Button } from "@/components/ui/button";
 import React from "react";
 
 const page = () => {
-  return (
-    <div>
-      <Button variant="destructive">click me</Button>
-    </div>
-  );
+  return <div>Hello page</div>;
 };
 
 export default page;
